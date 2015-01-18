@@ -1,12 +1,4 @@
 @import "bootstrap-less/less/bootstrap";
 @import "bootswatch/<%= data.bootswatch.theme %>/variables";
 @import "bootswatch/<%= data.bootswatch.theme %>/bootswatch";
-
-body {
-  padding-top: @navbar-height;
-}
-
-#sidebar {
-  padding: 60px 0px 0px 10px;
-  margin: 0px;
-}
+@import "_bootswatch_custom";
