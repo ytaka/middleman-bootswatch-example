@@ -47,6 +47,10 @@
 #   end
 # end
 
+activate :directory_indexes
+
+set :relative_links, true
+
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'
