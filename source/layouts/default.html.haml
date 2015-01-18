@@ -1,0 +1,10 @@
+!!!
+%html
+  %head
+    = partial("layouts/html_header")
+  %body#top
+    = partial("layouts/navbar")
+    .container
+      #main-content
+        = yield
+    = partial("layouts/footer")
