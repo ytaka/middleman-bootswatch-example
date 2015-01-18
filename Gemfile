@@ -18,5 +18,6 @@ gem "less"
 gem "sprockets-less"
 gem "therubyracer"
 
+gem "rails-assets-jquery"
 gem "rails-assets-bootstrap-less"
 gem "rails-assets-bootswatch"
