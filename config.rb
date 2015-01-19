@@ -57,6 +57,12 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
+ignore "images/bootswatch*"
+ignore "fonts/bootswatch*"
+ignore "fonts/bootstrap-less*"
+ignore "fonts/bootstrap-sass-official*"
+ignore "fonts/bootswatch*"
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
