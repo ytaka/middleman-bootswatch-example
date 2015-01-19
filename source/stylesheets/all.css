@@ -1,3 +1,4 @@
 /*
- *= require "_bootswatch"
+ *= require "_bootswatch.less.erb"
+ *= require_tree ./_custom
  */
